@@ -66,7 +66,7 @@ GROUP BY location
 ORDER BY life_expectancy DESC;
 
 
--- gdp per capital of emerging asian countries
+-- gdp per capita of emerging asian countries
 SELECT location, MAX(gdp_per_capita) AS GDP
 FROM #emerging_asia
 GROUP BY location
